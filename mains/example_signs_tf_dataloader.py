@@ -28,8 +28,10 @@ def main():
     # create the experiments dirs
     create_dirs([config.summary_dir, config.checkpoint_dir])
 
-    # create tensorflow session
-    sess = tf.Session()
+    # Create tensorflow session and limit gpu usage
+    conf = tf.ConfigProto()
+    conf.gpu_options.allow_growth=True
+    sess = tf.Session(config=conf)
 
     # create your data generator
     data_loader = SignsTfLoader(config)
