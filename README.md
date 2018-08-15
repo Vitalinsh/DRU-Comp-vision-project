@@ -22,6 +22,7 @@ This template combines  **simplcity**, **best practice for folder structure** an
         -  [Logger](#logger)
         -  [Configuration](#configuration)
         -  [Main](#main)
+ -  [Speed it up](#speed-it-up)
  -  [Contributing](#contributing)
 
 
@@ -308,6 +309,10 @@ Here's where you combine all previous part.
 2. Create an instance of "Model", "Data_Generator" and "Logger" and parse the config to all of them.
 3. Create an instance of "Trainer" and pass all previous objects to it.
 4. Now you can train your model by calling "Trainer.train()"
+
+
+# Speed it up
+In order to better performance for free consider using [google colab](https://colab.research.google.com/notebooks/welcome.ipynb) or [floydhub](https://www.floydhub.com/). Their capabilities described [here](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d) and [here](https://medium.com/@rupak.thakur/aws-vs-paperspace-vs-floydhub-choosing-your-cloud-gpu-partner-350150606b39).
 
 
 # Contributing
