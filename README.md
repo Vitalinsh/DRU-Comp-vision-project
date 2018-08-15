@@ -312,7 +312,7 @@ Here's where you combine all previous part.
 
 
 # Speed it up
-In order to better performance for free consider using [google colab](https://colab.research.google.com/notebooks/welcome.ipynb) or [floydhub](https://www.floydhub.com/). Their capabilities described [here](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d) and [here](https://medium.com/@rupak.thakur/aws-vs-paperspace-vs-floydhub-choosing-your-cloud-gpu-partner-350150606b39).
+In order to achieve better performance for free consider using [google colab](https://colab.research.google.com/notebooks/welcome.ipynb) or [floydhub](https://www.floydhub.com/). Their capabilities described [here](https://medium.com/deep-learning-turkey/google-colab-free-gpu-tutorial-e113627b9f5d) and [here](https://medium.com/@rupak.thakur/aws-vs-paperspace-vs-floydhub-choosing-your-cloud-gpu-partner-350150606b39).
 
 
 # Contributing
