@@ -3,7 +3,7 @@
 A simple and well designed structure is essential for any Deep Learning project. 
 Every Deep learning project has its own unique parts, but after a lot of practice with such kind of projects using Tensorflow - all neccessary parts can be gathered in a general structure. 
 
-We inspired in creation of such a structure from [stanford](https://cs230-stanford.github.io/project-code-examples.html) template and a popular more practical [template](https://www.reddit.com/r/MachineLearning/comments/7ven9f/p_best_practice_for_tensorflow_project_template/). We took best things from both, merged it with our experience and created this structure to be used even outside of DataRoot University . 
+We inspired in creation of such a structure from [stanford](https://cs230-stanford.github.io/project-code-examples.html) template and a popular more practical [template](https://www.reddit.com/r/MachineLearning/comments/7ven9f/p_best_practice_for_tensorflow_project_template/). We took best things from both, merged it with our experience and created this structure to be used even outside of DataRoot University. 
 
 This template combines  **simplcity**, **best practice for folder structure** and **good OOP design**.
 
