@@ -39,12 +39,12 @@ Current template can be tweaked in a few minutes and adapted for any image class
 In order to do some object detection - you will need to spend a little bit more time.
 
 #### Important
-Each two weeks we will add new examples, features and will extend the structure based on votes of DRU community.
+Each two weeks we will add new examples / features and will extend the structure based on votes of DRU community.
 
 # Try it first
 In order to get more familiar with the template and how it works let's run a few examples.
 
-First of you need to install all the libraries. You are free to create virtualenv here.
+First of all you need to install all the libraries. You are free to create virtualenv here.
 We are assuming you're using anaconda distribution and 3.5+ version of python.
 
 Clone repository
