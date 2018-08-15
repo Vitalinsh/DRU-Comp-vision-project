@@ -22,9 +22,8 @@ This template combines  **simplcity**, **best practice for folder structure** an
         -  [Logger](#logger)
         -  [Configuration](#configuration)
         -  [Main](#main)
- -  [Future Work](#future-work)
  -  [Contributing](#contributing)
- -  [Acknowledgments](#acknowledgments)
+
 
 # Intro
 Current version of template consists of two examples for image classification tasks which we will run and evaluate in the [next](#try-it-first) chapter.
