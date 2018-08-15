@@ -63,7 +63,7 @@ pip install -r requirements.txt
 
 Now we are ready for the first example. Let's go with cifar100.
 
-[Download](https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz) and unpack cifar100 dataset. It should be under `data/cifar/cifar-100-python` relative path.
+[Download](https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz) and unpack cifar100 dataset. It should be under `data/cifar100/cifar-100-python` relative path.
 
 Run dataset preprocessor
 ```bash
