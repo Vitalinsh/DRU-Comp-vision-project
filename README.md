@@ -92,7 +92,7 @@ You should get something like this [here](http://localhost:6006)
 
 Ok, as you can see the accuracy for such a complex task in not that high for just a few epochs. Let's try to play with simpler task.
 
-[Download](https://drive.google.com/file/d/1ufiR6hUKhXoAyiBNsySPkUwlvE_wfEHC/view?usp=sharing) and unpack signs dataset. It should have `data/signs/SIGNS` relative path.
+[Download](https://drive.google.com/file/d/1ufiR6hUKhXoAyiBNsySPkUwlvE_wfEHC/view?usp=sharing) and unpack signs dataset. It should be under `data/signs/SIGNS` relative path.
 
 Run dataset preprocessor
 ```bash
@@ -111,7 +111,7 @@ Open one more terminal window and run tensorboard. Watch metrics in near real-ti
 tensorboard --logdir experiments/signs_1/summary
 ```
 
-Tensorboard has more advanced capabilities. For example you can log miss-classified images there.
+Tensorboard has more advanced capabilities. For example you can log miss-classified images there
 <div align="center">
 <img align="center" hight="600" width="800" src="https://github.com/dataroot/DRU-DL-Project-Structure/blob/master/figures/tensorboard_2.png?raw=true">
 </div>
