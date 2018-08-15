@@ -133,7 +133,7 @@ In a nutshell here's how to use this template, so **for example** assume you wan
             self.build_model() 
             self.init_saver() 
   ```
-- Override these two functions "build_model" where you implement the vgg model, and "init_saver" where you define a tensorflow saver, then call them in the initalizer.
+- Override these two functions "build_model" where you implement the vgg model, and "init_saver" where you define a tensorflow saver, then call them in the initalizer
     
 ```python
      def build_model(self):
@@ -214,12 +214,27 @@ Folder structure
 ├── trainers            - this folder contains trainers of your project.
 │   └── example_trainer.py
 │   
+│   
 ├──  mains                - here's the main(s) of your project (you may need more than one main).
 │    └── example_main.py  - here's an example of main that is responsible for the whole pipeline.
-
-│  
+│ 
+│ 
+├── configs               - experiment configurationdirectory
+│    └── config.json
+│ 
+│ 
+├── data                  - dataset with preprocessors
+│    └── signs
+│    └── any_other_dataset_you_need
+│ 
+│ 
+├── experiments           - where the tf.checkpoinst and tensorboard summary remains
+│    └── experiment_name
+│ 
+│ 
 ├──  data_generators      - here's the data_generator that is responsible for all data handling.
 │    └── data_generator.py  
+│ 
 │ 
 └── utils
      ├── logger.py
