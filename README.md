@@ -194,7 +194,7 @@ Project architecture
 --------------
 
 <div align="center">
-<img align="center" hight="600" width="600" src="https://github.com/dataroot/Tensorflow-Project-Templete/blob/master/figures/diagram.png?raw=true">
+<img align="center" hight="600" width="600" src="https://github.com/dataroot/DRU-DL-Project-Structure/blob/master/figures/diagram.png?raw=true">
 </div>
 
 
